@@ -1,0 +1,14 @@
+# Lancement de l'application : docker compose up -d --build, puis http://localhost:8080
+services:
+  appli:
+    build: .
+    image: netsolutions-gestion
+    ports:
+      - "8080:80"
+    volumes:
+      - donnees:/var/www/app/donnees
+      - stockage:/var/www/app/stockage
+
+volumes:
+  donnees:
+  stockage:

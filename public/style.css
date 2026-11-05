@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; color: #1d2433; background: #f5f7fa; }
+header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; padding: .8rem 1.5rem; background: #1f4e79; color: #fff; }
+header a { color: #fff; margin-left: 1rem; }
+.marque { font-weight: 700; margin: 0; }
+main { max-width: 60rem; margin: 0 auto; padding: 1rem 1.5rem 3rem; }
+input[type=text], input[type=email], input[type=password], textarea { width: 100%; max-width: 32rem; padding: .4rem; font: inherit; }
+button { padding: .5rem 1.2rem; font: inherit; background: #1f4e79; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #ccd3dd; padding: .4rem .6rem; text-align: left; }
+.erreur { padding: .6rem; background: #fde7e9; border-left: 4px solid #b3261e; }
+.succes { padding: .6rem; background: #e6f4ea; border-left: 4px solid #1e7d32; }
+progress { width: 20rem; max-width: 100%; }

@@ -1,0 +1,7 @@
+/vendor/
+/donnees/*
+!/donnees/.gitkeep
+/stockage/*
+!/stockage/.gitkeep
+.phpunit.result.cache
+/.phpunit.cache/
