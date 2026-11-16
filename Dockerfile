@@ -1,6 +1,6 @@
 # Image de l'application : PHP avec le serveur web Apache, image officielle du Docker Hub.
 # L'étiquette est précise : la même version de PHP à chaque construction.
-FROM php:8.3.32-apache
+FROM php:8.3.36-apache
 
 # Le site est servi depuis public/ : src/, donnees/, stockage/ et vendor/ ne sont pas accessibles par le web.
 ENV APACHE_DOCUMENT_ROOT=/var/www/app/public

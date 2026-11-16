@@ -7,7 +7,7 @@
         "php": ">=8.2",
         "ext-fileinfo": "*",
         "ext-pdo_sqlite": "*",
-        "phpmailer/phpmailer": "6.4.1"
+        "phpmailer/phpmailer": "dev-php-8.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.5"
